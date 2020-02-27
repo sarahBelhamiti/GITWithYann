@@ -306,3 +306,33 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2020-02-27 15:54:42,870 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
 2020-02-27 15:55:50,211 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-02-27 15:55:50,225 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 15:55:50,227 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 15:55:50,257 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 16:53:51,850 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:53:51,901 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 16:53:51,903 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:53:51,935 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 16:53:54,922 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:53:54,966 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 16:53:54,969 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:53:55,000 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 16:53:56,134 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:53:56,155 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 16:53:56,155 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:53:56,175 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 16:55:35,784 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:55:35,834 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 16:55:35,834 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:55:35,844 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 16:57:09,099 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:57:09,160 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 16:57:09,163 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:57:09,179 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 16:57:12,837 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:57:12,865 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 16:57:12,865 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:57:12,874 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 16:57:23,294 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:57:23,315 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 16:57:23,316 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 16:57:23,326 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
