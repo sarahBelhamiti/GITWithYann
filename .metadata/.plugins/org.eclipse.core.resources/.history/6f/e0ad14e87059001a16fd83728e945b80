@@ -1,0 +1,62 @@
+package com.inti.controller;
+
+@Controller
+public class DepartementController {
+	
+	@Autowired
+	IVoyageurService voyageurService;
+
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public ModelAndView displayLogin() {
+		ModelAndView model = new ModelAndView("login");
+		Voyageur voyageur = new Voyageur();
+		model.addObject("v", voyageur);
+		return model;
+	}
+
+	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public ModelAndView loginPage(@ModelAttribute("v") Voyageur voyageur) {
+		ModelAndView model = null;
+		try {
+			Voyageur isValidVoyageur = voyageurService.findOneWithLoginAndPassword(voyageur.getLogin(),
+					voyageur.getPassword());
+			if (isValidVoyageur != null) {
+				model = new ModelAndView("redirect:/voyageurs");
+			} else {
+				model = new ModelAndView("redirect:/error");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return model;
+	}
+	@RequestMapping(value = "/error", method = RequestMethod.GET)
+	public ModelAndView errorPage() {
+		ModelAndView model = new ModelAndView();
+		model.setViewName("error"); // page jsp
+		return model;
+	}
+
+	@RequestMapping(value = "/saveVoyageur", method = RequestMethod.POST)
+	public ModelAndView saveVoyageur(@ModelAttribute("v") Voyageur voyageur) {
+		voyageurService.save(voyageur);
+		return new ModelAndView("redirect:/voyageurs");
+	}
+
+	@RequestMapping(value = "/voyageurs")
+	public ModelAndView findAllVoyageurs() {
+		ModelAndView model = new ModelAndView("voyageur"); // la page jsp "voyageur.jsp
+		List<Voyageur> listVoyageur = voyageurService.findAll(Voyageur.class);
+		model.addObject("listVoyageur", listVoyageur);
+		model.addObject("v", new Voyageur());
+		return model;
+	}
+
+	@RequestMapping(value = "/delete/{idV}")
+	public ModelAndView deleteVoyageur(@PathVariable("idV") Long id) {
+		Voyageur voyageur = voyageurService.findOne(Voyageur.class, id);
+		voyageurService.remove(voyageur);
+		return new ModelAndView("redirect:/voyageurs");
+	}
+
+}

@@ -1,0 +1,72 @@
+package com.inti.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.inti.entities.Departement;
+import com.inti.service.interfaces.IDepartementService;
+
+@Controller
+public class DepartementController {
+	
+	@Autowired
+	IDepartementService departementService; 
+
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public ModelAndView displayLogin() {
+		ModelAndView model = new ModelAndView("login");
+		Departement departement = new Departement();
+		model.addObject("d", departement);
+		return model;
+	}
+
+	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public ModelAndView loginPage(@ModelAttribute("d") Departement departement) {
+		ModelAndView model = null;
+		try {
+			Departement isValidDepartement = departementService.findOneWithLoginAndPassword(departement.getLogin(),
+					departement.getPassword());
+			if (isValidDepartement != null) {
+				model = new ModelAndView("redirect:/departements");
+			} else {
+				model = new ModelAndView("redirect:/error");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return model;
+	}
+	@RequestMapping(value = "/error", method = RequestMethod.GET)
+	public ModelAndView errorPage() {
+		ModelAndView model = new ModelAndView();
+		model.setViewName("error"); // page jsp
+		return model;
+	}
+
+	@RequestMapping(value = "/saveDepartement", method = RequestMethod.POST)
+	public ModelAndView saveDepartement(@ModelAttribute("d") Departement departement) {
+		departementService.save(departement);
+		return new ModelAndView("redirect:/departements");
+	}
+
+	@RequestMapping(value = "/departements")
+	public ModelAndView findAllDepartements() {
+		ModelAndView model = new ModelAndView("departement"); // la page jsp "departement.jsp
+		List<Departement> listDepartement = departementService.findAll(Departement.class);
+		model.addObject("listDepartement", listDepartement);
+		model.addObject("d", new Departement());
+		return model;
+	}
+
+	@RequestMapping(value = "/delete/{idV}")
+	public ModelAndView deleteDepartement(@PathVariable("idV") Long id) {
+		Departement departement = departementService.findOne(Departement.class, id);
+		departementService.remove(departement);
+		return new ModelAndView("redirect:/departements");
+	}
+
+}

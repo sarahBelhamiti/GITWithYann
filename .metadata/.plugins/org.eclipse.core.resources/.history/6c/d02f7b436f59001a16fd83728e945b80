@@ -1,0 +1,8 @@
+package com.inti.entities;
+
+import java.io.Serializable;
+
+@Entity
+public class Departement implements Serializable {
+
+}

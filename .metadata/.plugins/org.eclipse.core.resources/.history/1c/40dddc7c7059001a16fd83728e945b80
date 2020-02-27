@@ -1,0 +1,7 @@
+package com.inti.service.impl;
+
+@Service
+@Transactional
+public class DepartementService {
+
+}

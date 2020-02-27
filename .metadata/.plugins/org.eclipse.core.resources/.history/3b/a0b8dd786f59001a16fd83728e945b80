@@ -1,0 +1,44 @@
+package com.inti.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Departement implements Serializable {
+
+	private static final long serialVersionUID = -8970228847982686526L;
+	// declaration variable 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long idDepartement;
+	private String codeDepartement;
+	private String libelleDepartement;
+	// constructeur 
+	public Departement() {
+	}
+	// getteur et setteur 
+	public Long getIdDepartement() {
+		return idDepartement;
+	}
+	public void setIdDepartement(Long idDepartement) {
+		this.idDepartement = idDepartement;
+	}
+	public String getCodeDepartement() {
+		return codeDepartement;
+	}
+	public void setCodeDepartement(String codeDepartement) {
+		this.codeDepartement = codeDepartement;
+	}
+	public String getLibelleDepartement() {
+		return libelleDepartement;
+	}
+	public void setLibelleDepartement(String libelleDepartement) {
+		this.libelleDepartement = libelleDepartement;
+	}
+	
+
+}
