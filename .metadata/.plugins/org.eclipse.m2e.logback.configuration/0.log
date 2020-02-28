@@ -336,3 +336,20 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2020-02-27 16:57:23,315 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
 2020-02-27 16:57:23,316 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-02-27 16:57:23,326 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 17:10:37,293 [Worker-117] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-27 17:10:43,833 [Worker-117] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.inti:ProjectGroupGitMVC:0.0.1-SNAPSHOT @ C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\pom.xml.
+2020-02-27 17:10:46,355 [Worker-117] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjetGroupGitMVC/src
+2020-02-27 17:10:46,356 [Worker-117] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /ProjetGroupGitMVC/src/test/java because it overlaps with /ProjetGroupGitMVC/src
+2020-02-27 17:10:47,388 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 17:10:47,403 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 17:10:47,405 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 17:10:47,418 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 17:10:48,673 [Worker-117] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2020-02-27 17:10:50,527 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 17:10:50,600 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 17:10:50,600 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 17:10:50,713 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-27 17:12:12,463 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 17:12:12,523 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-27 17:12:12,523 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-27 17:12:12,654 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
