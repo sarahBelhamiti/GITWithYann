@@ -188,25 +188,46 @@
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="26" name="%0" offset="1302" path="%1"/>
-   <linked-el length="26" name="%0" offset="802" path="%1"/>
-   <linked-el length="26" name="%0" offset="1137" path="%1"/>
-   <linked-el length="26" name="%0" offset="1468" path="%1"/>
-   <linked-el length="26" name="%0" offset="632" path="%1"/>
-   <linked-el length="26" name="%0" offset="968" path="%1"/>
-   <linked-el length="26" name="%2" offset="1302" path="%1"/>
-   <linked-el length="26" name="%2" offset="802" path="%1"/>
-   <linked-el length="26" name="%2" offset="1137" path="%1"/>
-   <linked-el length="26" name="%2" offset="1468" path="%1"/>
-   <linked-el length="26" name="%2" offset="632" path="%1"/>
-   <linked-el length="26" name="%2" offset="968" path="%1"/>
+   <linked-el length="27" name="%0" offset="750" path="%1"/>
+   <linked-el length="21" name="%2" offset="667" path="%1"/>
+   <linked-el length="27" name="%2" offset="750" path="%1"/>
+   <linked-el length="24" name="%2" offset="703" path="%1"/>
+   <linked-el length="26" name="%3" offset="1302" path="%4"/>
+   <linked-el length="26" name="%3" offset="802" path="%4"/>
+   <linked-el length="26" name="%3" offset="1137" path="%4"/>
+   <linked-el length="26" name="%3" offset="1468" path="%4"/>
+   <linked-el length="26" name="%3" offset="632" path="%4"/>
+   <linked-el length="26" name="%3" offset="968" path="%4"/>
+   <linked-el length="20" name="%5" offset="627" path="%1"/>
+   <linked-el length="21" name="%6" offset="667" path="%1"/>
+   <linked-el length="26" name="%7" offset="1302" path="%4"/>
+   <linked-el length="26" name="%7" offset="802" path="%4"/>
+   <linked-el length="26" name="%7" offset="1137" path="%4"/>
+   <linked-el length="26" name="%7" offset="1468" path="%4"/>
+   <linked-el length="26" name="%7" offset="632" path="%4"/>
+   <linked-el length="26" name="%7" offset="968" path="%4"/>
+   <linked-el length="24" name="%8" offset="703" path="%1"/>
   </el>
  </validation>
  <aliases>
-  <alias path="/ProjetGroupGitMVC/pom.xml" value="%1"/>
-  <alias path="springframework.version" value="%0"/>
-  <alias path="springframework" value="%2"/>
+  <alias path="d.idDepartement" value="%0"/>
+  <alias path="/ProjetGroupGitMVC/pom.xml" value="%4"/>
+  <alias path="d" value="%2"/>
+  <alias path="springframework.version" value="%3"/>
+  <alias path="listDepartement" value="%5"/>
+  <alias path="d.codeDepartement" value="%6"/>
+  <alias
+   path="/ProjetGroupGitMVC/WebContent/WEB-INF/jsp/departement.jsp" value="%1"/>
+  <alias path="springframework" value="%7"/>
+  <alias path="d.libelleDepartement" value="%8"/>
  </aliases>
  <includes/>
- <uris/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+  <uri value="http://www.springframework.org/tags/form">
+   <prefix>form</prefix>
+  </uri>
+ </uris>
 </kb-project>
