@@ -26,13 +26,5 @@ public class DepartementController {
 		return new ModelAndView("redirect:/departements");
 	}
 
-	@RequestMapping(value = "/departements")
-	public ModelAndView findAllDepartements() {
-		ModelAndView model = new ModelAndView("departement"); // la page jsp "departement.jsp
-		List<Departement> listDepartement = departementService.findAll(Departement.class);
-		model.addObject("listDepartement", listDepartement);
-		model.addObject("d", new Departement());
-		return model;
-	}
 
 }

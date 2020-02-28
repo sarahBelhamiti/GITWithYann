@@ -9,18 +9,31 @@
 <title>Departements</title>
 </head>
 <body>
+
+	<form action="register" method="POST">
+		<span>Enregister un département</span>
+		<div>
+			<label>Code</label> 
+			<input type="text" name="code" placeholder="taper le code...">
+		</div>
+		<div>
+			<label>Libelle</label> <input type="text" name="libelle" placeholder="taper le libelle...">
+		</div>
+		<div>
+			<input type="submittt" value="Register">
+		</div>
+	</form>
+
 	<h3>Liste des departements</h3>
 	<table>
 		<tr>
 			<th>Code</th>
 			<th>Libelle</th>
-			<th>Action</th>
 		</tr>
 		<c:forEach var="d" items="${listDepartement}">
 			<tr>
 				<td>${d.codeDepartement }</td>
 				<td>${d.libelleDepartement }</td>
-				<td><a href="delete/${d.idDepartement}">Supprimer</a></td>
 			</tr>
 		</c:forEach>
 	</table>

@@ -518,3 +518,10 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2020-02-28 10:45:44,896 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
 2020-02-28 10:45:44,908 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-02-28 10:45:44,920 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-28 10:47:24,824 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-28 10:47:24,873 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-28 10:47:24,875 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-28 10:47:24,885 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\test\resources
+2020-02-28 10:49:21,623 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-02-28 10:49:21,649 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\IN-NN-014\Desktop\FormationAdaming\GIT\Workspace2\ProjetGroupGitMVC\src\main\resources
+2020-02-28 10:49:21,651 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
