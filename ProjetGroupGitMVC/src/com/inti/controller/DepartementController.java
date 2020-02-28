@@ -35,11 +35,11 @@ public class DepartementController {
 		return model;
 	}
 
-	@RequestMapping(value = "/delete/{idD}")
-	public ModelAndView deleteDepartement(@PathVariable("idD") Long id) {
-		Departement departement = departementService.findOne(Departement.class, id);
-		departementService.remove(departement);
-		return new ModelAndView("redirect:/departements");
-	}
+//	@RequestMapping(value = "/delete/{idD}")
+//	public ModelAndView deleteDepartement(@PathVariable("idD") Long id) {
+//		Departement departement = departementService.findOne(Departement.class, id);
+//		departementService.remove(departement);
+//		return new ModelAndView("redirect:/departements");
+//	}
 
 }
