@@ -20,7 +20,7 @@
 			<label>Libelle</label> <input type="text" name="libelle" placeholder="taper le libelle...">
 		</div>
 		<div>
-			<input type="submit" value="Register">
+			<input type="submitt" value="Register">
 		</div>
 	</form>
 
